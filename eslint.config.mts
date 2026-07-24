@@ -6,6 +6,7 @@ export default defineConfig(
 	globalIgnores([
 		'node_modules',
 		'dist',
+		'coverage',
 		'esbuild.config.mjs',
 		'version-bump.mjs',
 		'versions.json',
@@ -13,6 +14,8 @@ export default defineConfig(
 		'package.json',
 		'package-lock.json',
 		'tsconfig.json',
+		'vitest.config.ts',
+		'src/__mocks__/**',
 	]),
 	{
 		languageOptions: {

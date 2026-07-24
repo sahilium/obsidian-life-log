@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "1.0.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"id": "life-log",
+	"name": "Life Log",
+	"version": "0.1.0",
+	"minAppVersion": "1.7.2",
+	"description": "Record atomic life events as Markdown files. A personal timeline of your life.",
+	"author": "Sahil A",
+	"authorUrl": "https://github.com/sahilium",
 	"isDesktopOnly": false
 }

@@ -1,8 +1,130 @@
-/*
+.life-log-modal h2 {
+  margin-bottom: var(--size-4-4);
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.life-log-modal input[type="text"] {
+  width: 100%;
+  margin-bottom: var(--size-4-4);
+}
 
-If your plugin does not need CSS, delete this file.
+.life-log-modal button {
+  margin-bottom: var(--size-4-4);
+}
 
-*/
+.life-log-modal details {
+  margin-top: var(--size-4-4);
+}
+
+.life-log-modal details summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.life-log-modal details summary:hover {
+  color: var(--text-normal);
+}
+
+.life-log-details {
+  margin-top: var(--size-4-4);
+}
+
+.life-log-details .setting-item {
+  border: none;
+  padding: var(--size-4-2) 0;
+}
+
+.life-log-details textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.life-log-timeline {
+  padding: var(--size-4-4);
+}
+
+.life-log-search {
+  margin-bottom: var(--size-4-4);
+}
+
+.life-log-search input {
+  width: 100%;
+}
+
+.life-log-today {
+  margin-bottom: var(--size-4-4);
+  padding-bottom: var(--size-4-4);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.life-log-today h3 {
+  margin: 0 0 var(--size-4-2);
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.life-log-years-ago {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  margin: var(--size-4-2) 0;
+  font-weight: var(--font-semibold);
+}
+
+.life-log-year h2 {
+  margin: var(--size-4-4) 0 var(--size-4-2);
+  font-size: var(--font-ui-large);
+  color: var(--text-normal);
+}
+
+.life-log-month h3 {
+  margin: var(--size-4-2) 0;
+  font-size: var(--font-ui-medium);
+  color: var(--text-muted);
+}
+
+.life-log-event {
+  display: flex;
+  align-items: center;
+  gap: var(--size-4-2);
+  padding: var(--size-4-1) var(--size-4-2);
+  border-radius: var(--radius-s);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.life-log-event:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.life-log-event-day {
+  font-size: var(--font-ui-small);
+  color: var(--text-faint);
+  min-width: 1.5em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.life-log-event-title {
+  flex: 1;
+  font-size: var(--font-ui-small);
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.life-log-event-time {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.life-log-empty {
+  color: var(--text-faint);
+  font-size: var(--font-ui-small);
+  text-align: center;
+  padding: var(--size-4-8);
+}
