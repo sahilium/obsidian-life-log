@@ -2,7 +2,7 @@
 	"id": "life-log",
 	"name": "Life Log",
 	"version": "0.1.0",
-	"minAppVersion": "1.7.2",
+	"minAppVersion": "1.8.7",
 	"description": "Record atomic life events as Markdown files. A personal timeline of your life.",
 	"author": "Sahil A",
 	"authorUrl": "https://github.com/sahilium",

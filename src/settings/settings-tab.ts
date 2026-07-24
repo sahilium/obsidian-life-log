@@ -1,4 +1,4 @@
-import { App, PluginSettingTab, Setting, PluginSettingTabGetSettingDefinitions } from 'obsidian';
+import { App, PluginSettingTab, Setting } from 'obsidian';
 import { EVENT_TYPES, EventType } from '../types/event';
 import type { LifeLogPlugin } from '../main';
 
@@ -20,23 +20,6 @@ export class LifeLogSettingTab extends PluginSettingTab {
     private plugin: LifeLogPlugin,
   ) {
     super(app, plugin);
-  }
-
-  getSettingDefinitions(): PluginSettingTabGetSettingDefinitions {
-    return {
-      storageFolder: {
-        name: 'Storage folder',
-        description: 'Folder path for life event files',
-      },
-      defaultType: {
-        name: 'Default event type',
-        description: 'Default type for new events',
-      },
-      showTodayInHistory: {
-        name: 'Today in history',
-        description: 'Show events from this day in past years',
-      },
-    };
   }
 
   display(): void {
